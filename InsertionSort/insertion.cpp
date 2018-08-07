@@ -1,4 +1,6 @@
 #include <iostream>
+//Compilação
+//g++ -o insertion -Wall -ansi -pedantic -O0 -g insertion.cpp
 void insertionSort(int vetor[], int tam){
     for (int i = 1; i < tam; i++) {
             int escolhido = vetor[i];

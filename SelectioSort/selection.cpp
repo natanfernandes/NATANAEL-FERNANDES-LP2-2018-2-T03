@@ -1,4 +1,6 @@
 #include <iostream>
+//Compilação
+//g++ -o selection -Wall -ansi -pedantic -O0 -g selection.cpp
 void selectionSort(int vetor[], int tam){
    for (int i = 0; i < tam; ++i) {
         int temp = i;
